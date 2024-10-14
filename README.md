@@ -44,7 +44,7 @@ Before running this project, ensure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/dotnet-maui-practice.git
+    git clone https://github.com/Zainulabdeenoffical/dotnet-maui-practice.git
     cd dotnet-maui-practice
     ```
 
@@ -104,6 +104,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any inquiries, issues, or suggestions, feel free to contact:
 
 - **Author**: M Zain Ul Abideen
-- **Email**: Zain.zu4425@example.com
+- **Email**:zu4425@example.com
 - **GitHub**: [Zainulabdeenoffical](https://github.com/Zainulabdeenoffical)
 
