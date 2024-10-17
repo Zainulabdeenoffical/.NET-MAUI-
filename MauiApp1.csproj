@@ -81,6 +81,9 @@
 	  <MauiXaml Update="newtabbedpage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="presentationconrtrol.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="stackpage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

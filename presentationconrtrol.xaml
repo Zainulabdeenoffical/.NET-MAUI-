@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.presentationconrtrol"
+             Title="presentationconrtrol">
+    <ScrollView>
+       
+    <StackLayout>
+        <BoxView BackgroundColor="Red" HeightRequest="200"/>
+        <Label Text="Zain Ul Abideen" TextColor="White" FontSize="Title"
+               FontAttributes="Bold" HorizontalOptions="Center"/>
+        <Ellipse  Fill="White"  Stroke="Black" HorizontalOptions="Center"
+                  StrokeThickness="12"  HeightRequest="200"  WidthRequest="250"/>
+        <Line Stroke="Brown" X1="0" Y1="0" X2="250" Y2="100"
+              StrokeThickness="12" />
+        <Rectangle Stroke="Red" Fill="green" HeightRequest="50" WidthRequest="100"
+                   RadiusX="12"
+                   RadiusY="12" />
+        <Polygon Fill="blue" Stroke="red"  Points="30,10,40,50" StrokeThickness="12"/>
+        <Polygon Fill="blue" Stroke="Green"  Points="30,10,40,50" StrokeThickness="12"
+                 StrokeDashArray="1,1"
+                 StrokeDashOffset="6" />
+        <Polyline Points="0,0,15,31,40,12,6,9,10,50"  Stroke="Red"/>
+            <Path Aspect="Uniform" Data="M 10,100 L 100,100 100, 50z"
+              HorizontalOptions="Center"
+              Stroke="Wheat"/>
+            <Border Stroke="Yellow" StrokeThickness="5" Background="Blue" Padding="16,8"
+                HorizontalOptions="Center" >
+                <Border.StrokeShape>
+                <RoundRectangle CornerRadius="50,0,0,50"/>
+
+                </Border.StrokeShape>
+                <Label Text="Yes" VerticalOptions="Center" HorizontalOptions="Center"
+                       TextColor="White"/>
+            </Border>
+            <Frame Margin="10"
+               BackgroundColor="Black"
+               Padding="10">
+            <Image Source="dotnet_bot.png" />
+            </Frame>
+            <WebView HeightRequest="500" Source="https://github.com/Zainulabdeenoffical"/>
+        </StackLayout>
+   </ScrollView>
+</ContentPage>
