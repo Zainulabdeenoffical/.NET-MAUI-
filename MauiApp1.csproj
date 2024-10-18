@@ -66,6 +66,9 @@
 	  <MauiXaml Update="absolutelayout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="commandscontrol.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="firstpage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

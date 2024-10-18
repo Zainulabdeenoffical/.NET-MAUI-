@@ -8,7 +8,8 @@
             InitializeComponent();
 
             //  var flexLayoutPage = new FlexLayoutxaml();
-            var presenatationcontrol = new presentationconrtrol();
+            // var presenatationcontrol = new presentationconrtrol();
+            var controlcommand = new commandscontrol();
            
            //var absoultepage = new absolutelayout(); 
            // var gridpage = new gridpage();
@@ -18,7 +19,7 @@
            // var   Navpage   =   new NavigationPage(new MainPage());
            // Navpage.BarBackgroundColor = Colors.Gold;
            // Navpage.BarTextColor = Colors.White;
-            MainPage = presenatationcontrol;
+            MainPage = controlcommand;
         }
     }
 }

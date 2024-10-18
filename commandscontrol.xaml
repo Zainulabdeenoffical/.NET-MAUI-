@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.commandscontrol"
+             Title="commandscontrol">
+    <StackLayout>
+        <Button x:Name="clickbtn" Text="click" Clicked="clickbtn_1" />
+        <ImageButton Source="dotnet_bot.png" Clicked="clickbtn_1"/>
+        <RadioButton Content="option1" CheckedChanged="radioevent"
+                     GroupName="gp1"/>
+        <RadioButton Content="option2" CheckedChanged="radioevent"
+             GroupName="gp1"/>
+        <RadioButton Content="option3" CheckedChanged="radioevent"
+        GroupName="gp1"/>
+        <RadioButton Content="option1" CheckedChanged="radioevent"
+             GroupName="gp2"/>
+        <RadioButton Content="option2" CheckedChanged="radioevent"
+             GroupName="gp2"/>
+        <SearchBar x:Name="searching" SearchButtonPressed="searched"/>
+        <SwipeView>
+            <SwipeView.LeftItems>
+                <SwipeItems>
+                    <SwipeItem 
+                        BackgroundColor="Green"
+                        IconImageSource="dotnet_bot.png"
+                        Invoked="swipeiteminvoked"
+                        Text="Archive"/>
+                    <SwipeItem 
+                        BackgroundColor="Red"
+            IconImageSource="dotnet_bot.png"
+            Invoked="swipeiteminvoked"
+            Text="Delete"/>
+
+
+                </SwipeItems>
+            </SwipeView.LeftItems>
+            <Grid BackgroundColor="Gray" HeightRequest="50"
+                  WidthRequest="300">
+                <Label HorizontalOptions="Center"
+                         VerticalOptions="Center" 
+                         Text="swipe center"/>
+            </Grid>
+
+        </SwipeView>
+    </StackLayout>
+</ContentPage>
